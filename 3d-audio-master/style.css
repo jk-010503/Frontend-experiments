@@ -1,0 +1,60 @@
+input {
+  display: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  margin:0%;
+
+}
+
+label{
+  border-color: gray;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.2s background-color;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;}
+  
+label:hover{
+  background-color: rgb(134, 192, 231);
+  cursor: pointer;
+ 
+}
+/* Style for the audio controls container */
+#audio-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+background-color: rgba(255, 255, 255, 0.517);
+margin-bottom: 1%;
+  top:10%
+}
+
+/* Style for the "Select File" button (moved to the left) */
+#select-file {
+  margin-right: 1rem;
+}
+
+/* Style for the audio name (displayed at the top) */
+#audio-name {
+  font-size: 2rem;
+}
+
+/* Centered styles (for the visualizer and label) */
+.centered {
+  text-align: center;
+}
+
+
+#visualiser {
+  cursor: pointer;
+}
+
+#visualiser {
+  flex: 1;
+}
