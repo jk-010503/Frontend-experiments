@@ -1,0 +1,65 @@
+/* Set a gradient background for the entire page */
+body {
+    background: linear-gradient(to bottom, #4A90E2, #F02FC2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Container for the canvas elements */
+.canvas-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* Style the dropdown and its label */
+.controls {
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    left: 72%;
+    width:30%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.tit {
+    position: absolute;
+    top:10%;
+    right: 10%;
+    padding: 20px;
+    color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+option {
+    font-size: 18px;
+    background: #444;
+    color: #fff;
+    padding: 5px 10px;
+}
