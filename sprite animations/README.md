@@ -2,7 +2,7 @@ This project creates an impressive web page that showcases a captivating "Shadow
 
 The JavaScript code drives the animation, managing the character's state and rendering the animation frames on the canvas. The sprite sheet, containing various animation frames, is loaded, and animations are organized into different states, such as 'stand,' 'jump,' 'run,' and more. As the user selects an animation from the dropdown, the code dynamically switches to the corresponding state and smoothly animates the character.
 
-This project offers an engaging and interactive user experience, combining artistic design with technical finesse to bring a charming "Shadow of a Dog" to life on the web. The code structure is both clear and efficient, making it easy to understand and customize for your own animations or web-based games.
+This project offers an engaging and interactive user experience, combining artistic design with technical finesse to bring a charming "Shadow of a Dog" to life on the web. The code structure is clear and efficient, making it easy to understand and customize for your animations or web-based games. Inspired by a tutorial.
 
 
 
