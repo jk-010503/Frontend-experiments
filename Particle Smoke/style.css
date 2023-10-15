@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(0, 0, 0);
+}
+
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.chorizo-list {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+  display: flex;
+  gap: 31rem;
+  font-size: larger;
+}
+
+.chorizo-list li {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+
+
+#canvas1 {
+    position: absolute;
+    width: 40rem;
+    height: 40rem;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+#canvas2 {
+    position: absolute;
+    width: 40rem;
+    height: 40rem;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
